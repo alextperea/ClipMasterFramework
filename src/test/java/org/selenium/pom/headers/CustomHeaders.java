@@ -19,4 +19,16 @@ public class CustomHeaders {
                     new Header("Cookie", properties.getProperty("cookieHeader"))
             );
         }
+
+    public static Headers getInvoiceHeaders() {
+        Properties properties = PropertyLoader.loadProperties("config.properties");
+
+        return Headers.headers(
+                new Header("authority", properties.getProperty("authorityHeader")),
+                new Header("accept", properties.getProperty("invoiceAcceptHeader")),
+                new Header("accept-language", properties.getProperty("acceptLanguageHeader")),
+                new Header("content-type", properties.getProperty("contentTypeHeader")),
+                new Header("Cookie", properties.getProperty("cookieHeader"))
+        );
+    }
     }

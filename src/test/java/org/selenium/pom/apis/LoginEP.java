@@ -19,12 +19,12 @@ public class LoginEP {
 
     public Response login() throws JsonProcessingException {
         String baseUrl = properties.getProperty("baseURI");
-        String endpoint = properties.getProperty("endpoint");
+        String endpoint = properties.getProperty("loginEndpoint");
         String email = properties.getProperty("email");
         String password = properties.getProperty("password");
 
 
-        // Construir el objeto LoginRequestBody
+        // Construir el objeto del Body Request
         LoginRequestBody requestBodyObj = new LoginRequestBody();
         requestBodyObj.setEmail(email);
         requestBodyObj.setPassword(password);

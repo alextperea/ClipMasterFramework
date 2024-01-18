@@ -1,8 +1,11 @@
 org\selenium\pom\apis\LoginEndpoint.class
 org\selenium\pom\base\BasePage.class
 org\selenium\pom\base\BaseTest.class
-org\selenium\pom\tests\Main.class
+org\selenium\pom\tests\APITestCases.class
 org\selenium\pom\factory\DriverManager.class
+org\selenium\pom\headers\CustomHeaders.class
+org\selenium\pom\bodies\LoginRequestBody.class
 org\selenium\pom\utils\PropertyLoader.class
+org\selenium\pom\apis\LoginEP.class
 org\selenium\pom\factory\DriverManager$1.class
 org\selenium\pom\factory\DriverType.class

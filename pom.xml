@@ -21,28 +21,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                    <!--                    <parallel>methods</parallel>-->
-                    <!--                    <threadCount>2</threadCount>-->
-                    <!--                    <suiteXmlFiles>-->
-                    <!--                        <suiteXmlFile>testng.xml</suiteXmlFile>-->
-                    <!--                    </suiteXmlFiles>-->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
-
-            <plugin>
-                <groupId>io.qameta.allure</groupId>
-                <artifactId>allure-maven</artifactId>
-                <version>2.10.0</version>
-                <configuration>
-                    <reportVersion>2.6.0</reportVersion>
-                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
-                    <reportDirectory>${project.build.directory}/allure-reports</reportDirectory>
-                </configuration>
-            </plugin>
-
-
         </plugins>
     </build>
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -102,17 +88,20 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>com.dorkbox</groupId>
             <artifactId>PropertyLoader</artifactId>
             <version>1.2</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-junit4 -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -121,7 +110,12 @@
             <scope>test</scope>
         </dependency>
 
-
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.21.0</version> <!-- Utiliza la versión más reciente disponible -->
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 

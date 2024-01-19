@@ -1,4 +1,4 @@
-package org.selenium.pom.apis;
+package org.selenium.pom.apis.login;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -17,7 +17,7 @@ import static org.selenium.pom.utils.PropertyLoader.loadProperties;
 public class Login {
 
     private Properties properties;
-    private String accessToken;
+    public String accessToken;
     public String getAccessToken(){
         return accessToken;
     }
@@ -27,7 +27,7 @@ public class Login {
 
     public Response login() throws IOException {
 
-        String baseUrl = properties.getProperty("baseURI");
+        String baseUri = properties.getProperty("login.baseURI");
         String endpoint = properties.getProperty("login.Endpoint");
 
         // Lee el contenido del archivo JSON
@@ -35,7 +35,7 @@ public class Login {
 
         Response response =
                 given()
-                        .baseUri(baseUrl)
+                        .baseUri(baseUri)
                         .basePath(endpoint)
                         .headers(CustomHeaders.getLoginHeaders())
                         .body(requestBody)
@@ -53,14 +53,6 @@ public class Login {
         return response;
     }
     public void validateLoginResponse(Response response) {
-//        String accessToken = response.jsonPath().getString("access_token");
-//        String country = response.jsonPath().getString("country");
-//        String appVersionCheckStatus = response.jsonPath().getString("app_version_check.status");
-//
-//        assertThat(accessToken).isNotEmpty();
-//        assertThat(country).isEqualTo("MX");
-//        assertThat(appVersionCheckStatus).isEqualTo("ALLOWED");
-
         SoftAssertions softAssertions = new SoftAssertions(); //los softAssertions
 
         softAssertions.assertThat(response.jsonPath().getString("access_token")).isNotEmpty();

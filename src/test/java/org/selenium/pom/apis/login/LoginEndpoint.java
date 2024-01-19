@@ -1,4 +1,4 @@
-package org.selenium.pom.apis;
+package org.selenium.pom.apis.login;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

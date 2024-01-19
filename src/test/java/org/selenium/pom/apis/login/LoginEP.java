@@ -1,4 +1,4 @@
-package org.selenium.pom.apis;
+package org.selenium.pom.apis.login;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

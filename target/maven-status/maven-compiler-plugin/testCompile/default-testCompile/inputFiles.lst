@@ -1,10 +1,13 @@
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\base\BaseTest.java
-C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\factory\DriverManager.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\base\BasePage.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\headers\CustomHeaders.java
+C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\Login.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\bodies\LoginRequestBody.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\LoginEP.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\tests\APITestCases.java
+C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\bodies\InvoiceRequestBody.java
+C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\factory\DriverManager.java
+C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\InvoiceInformationEndpoint.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\LoginEndpoint.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\factory\DriverType.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\utils\PropertyLoader.java

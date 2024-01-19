@@ -19,16 +19,15 @@ public class InvoiceRequestBody {
         private String legalEntityLastName;
         @JsonProperty("legal_entity_second_last_name")
         private String legalEntitySecondLastName;
+        @JsonProperty("entity_type")
+        private String entityType;
         @JsonProperty("fiscal_address_postal_code")
         private String fiscalAddressPostalCode;
         @JsonProperty("sat_tax_regime_code")
         private String satTaxRegimeCode;
         @JsonProperty("sat_invoice_use_code")
         private String satInvoiceUseCode;
-        @JsonProperty("sat_invoice_use_description")
-        private String satInvoiceUseDescription;
-        @JsonProperty("entity_type")
-        private String entityType;
+
 
         // Constructor vacío necesario para la deserialización JSON
         public InvoicingDetails() {
@@ -37,27 +36,19 @@ public class InvoiceRequestBody {
         // Constructor con parametros
         public InvoicingDetails(String taxPayerId, String legalEntityName, String legalEntityLastName,
                                   String legalEntitySecondLastName, String fiscalAddressPostalCode,
-                                  String satTaxRegimeCode, String satInvoiceUseCode, String satInvoiceUseDescription, String entityType) {
+                                  String satTaxRegimeCode, String satInvoiceUseCode, String entityType) {
             this.taxPayerId = taxPayerId;
             this.legalEntityName = legalEntityName;
             this.legalEntityLastName = legalEntityLastName;
             this.legalEntitySecondLastName = legalEntitySecondLastName;
+            this.entityType = entityType;
             this.fiscalAddressPostalCode = fiscalAddressPostalCode;
             this.satTaxRegimeCode = satTaxRegimeCode;
             this.satInvoiceUseCode = satInvoiceUseCode;
-            this.satInvoiceUseDescription = satInvoiceUseDescription;
-            this.entityType = entityType;
         }
 
 
         //Getters y Setters
-        public String getSatInvoiceUseDescription() {
-            return satInvoiceUseDescription;
-        }
-
-        public void setSatInvoiceUseDescription(String satInvoiceUseDescription) {
-            this.satInvoiceUseDescription = satInvoiceUseDescription;
-        }
 
         public String getTaxPayerId() {
             return taxPayerId;
@@ -66,7 +57,6 @@ public class InvoiceRequestBody {
         public void setTaxPayerId(String taxPayerId) {
             this.taxPayerId = taxPayerId;
         }
-
         public String getLegalEntityName() {
             return legalEntityName;
         }

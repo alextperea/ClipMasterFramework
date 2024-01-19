@@ -1,21 +1,18 @@
 package org.selenium.pom.apis.login;
 
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.assertj.core.api.SoftAssertions;
 import org.selenium.pom.headers.CustomHeaders;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Properties;
-
 import static io.restassured.RestAssured.given;
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.selenium.pom.utils.PropertyLoader.loadProperties;
 
 public class Login {
-
     private Properties properties;
     public String accessToken;
     public String getAccessToken(){
@@ -28,7 +25,7 @@ public class Login {
     public Response login() throws IOException {
 
         String baseUri = properties.getProperty("login.baseURI");
-        String endpoint = properties.getProperty("login.Endpoint");
+        String endpoint = properties.getProperty("login.endpoint");
 
         // Lee el contenido del archivo JSON
         String requestBody = new String(Files.readAllBytes(Paths.get("src/test/resources/loginRequest.json")));
@@ -37,13 +34,13 @@ public class Login {
                 given()
                         .baseUri(baseUri)
                         .basePath(endpoint)
-                        .headers(CustomHeaders.getLoginHeaders())
-                        .body(requestBody)
+                        .headers(CustomHeaders.getLoginHeaders()).log().headers()
+                        .body(requestBody).log().body()
                 .when()
                         .post()
                 .then()
                         .statusCode(200)
-                        .contentType(ContentType.JSON)
+                        .contentType(ContentType.JSON).log().all()
                         .extract()
                         .response();
 

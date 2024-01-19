@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.384" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.65" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\alext\AppData\Local\Temp\surefire1488005350635531678\surefirebooter-20240118222015502_3.jar C:\Users\alext\AppData\Local\Temp\surefire1488005350635531678 2024-01-18T22-20-13_144-jvmRun1 surefire-20240118222015502_1tmp surefire_0-20240118222015502_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\alext\AppData\Local\Temp\surefire9656042054218002372\surefirebooter12877666756218588557.jar C:\Users\alext\AppData\Local\Temp\surefire9656042054218002372 2024-01-19T15-47-26_935-jvmRun1 surefire1945394319351704159tmp surefire_06970328687247429659tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alext\IdeaProjects\ClipMasterFramework\target\test-classes;C:\Users\alext\IdeaProjects\ClipMasterFramework\target\classes;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\alext\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\alext\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\alext\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alext\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\alext\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alext\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alext\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alext\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alext\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\alext\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\alext\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\alext\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alext\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\alext\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\alext\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\alext\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0-rc1\jackson-databind-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0-rc1\jackson-annotations-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0-rc1\jackson-core-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\alext\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\alext\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\alext\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\alext\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\alext\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\alext\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alext\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\alext\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alext\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\alext\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\alext\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\alext\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\alext\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\alext\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alext\.m2\repository\com\dorkbox\PropertyLoader\1.2\PropertyLoader-1.2.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-junit4\2.25.0\allure-junit4-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\alext\.m2\repository\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alext\AppData\Local\Temp\surefire1488005350635531678\surefirebooter-20240118222015502_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alext\AppData\Local\Temp\surefire9656042054218002372\surefirebooter12877666756218588557.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -56,79 +56,166 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="APIExecution" classname="org.selenium.pom.tests.APITestCases" time="3.632">
+  <testcase name="CategoriesExec" classname="org.selenium.pom.tests.APITestCases" time="3.808">
+    <system-out><![CDATA[Headers:		authority=api-gateway.payclip.com
+				accept=application/vnd.com.payclip.v1+json
+				accept-language=es-US,es;q=0.9
+				Content-Type=application/json
+Body:
+{
+    "email": "alextopeteperea@gmail.com",
+    "password": "ATP150493i",
+    "type": "LOGIN",
+    "source": "M_DASHBOARD"
+}
+HTTP/1.1 200 OK
+Date: Fri, 19 Jan 2024 21:47:29 GMT
+Content-Type: application/vnd.com.payclip.v1+json;charset=UTF-8
+Content-Length: 293
+Connection: keep-alive
+Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With
+Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT
+Access-Control-Allow-Origin: https://lending.clip.mx, https://dashboard.clip.mx, https://minegocio.clip.mx, https://factura-tu-clip.clip.mx, https://completa-tu-pago.payclip.com, https://clip.mx, https://coupons.payclip.com, https://dashboard.developer.clip.mx, https://dashboard-mfe.clip.mx, https://mf-merchant-dashboard.clip.mx, https://completa-tu-pago2.payclip.com, https://tienda.clip.mx, https://prod-web-onboarding.payclip.com, https://mfe-react-support.payclip.com, https://mfe-mobile-payment-options.payclip.com, https://mfe-business-information.payclip.com, https://mfe-transaction-details.payclip.com, https://pago.clip.mx, https://pago.clip.mx
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Expires: 0
+Pragma: no-cache
+Vary: Origin
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=cJ8UwtXliNDMQ_RbVzpHvxYgEFQANvRfgCEwgYqxMvc-1705700849-1-AY+O14tBppIK9qVqrKWl9UB0wxDgwmeFKTy3tldmFZRQbGIkzfztDsMvqcpcFRriceThh+RtVo6fpWiglls8xdQ=; path=/; expires=Fri, 19-Jan-24 22:17:29 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 848246c31dc121a4-GDL
+
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiIvYWgyWCs1bHUyVDkyNWxlIiwiaGtpIjoxLCJleHAiOjE3MDg3MjQ4NDksImlhdCI6MTcwNTcwMDg0OX0.ABl8HlfH9lbY7f74fE3LGhiv7NGxPurYbTlhZeopgP0",
+    "country": "MX",
+    "app_version_check": {
+        "status": "ALLOWED",
+        "not_allowed_from": "NA"
+    },
+    "days_until_exp": null
+}
+Headers:		accept=application/vnd.com.payclip.v1+json
+				accept-language=es-US,es;q=0.9
+				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiIvYWgyWCs1bHUyVDkyNWxlIiwiaGtpIjoxLCJleHAiOjE3MDg3MjQ4NDksImlhdCI6MTcwNTcwMDg0OX0.ABl8HlfH9lbY7f74fE3LGhiv7NGxPurYbTlhZeopgP0
+Request method:	GET
+Request URI:	https://api-gw.payclip.com/catalog/categories
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/vnd.com.payclip.v1+json
+				accept-language=es-US,es;q=0.9
+				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiIvYWgyWCs1bHUyVDkyNWxlIiwiaGtpIjoxLCJleHAiOjE3MDg3MjQ4NDksImlhdCI6MTcwNTcwMDg0OX0.ABl8HlfH9lbY7f74fE3LGhiv7NGxPurYbTlhZeopgP0
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 19 Jan 2024 21:47:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-amzn-RequestId: 7515d869-5600-418e-81cf-2d4a377b89d0
+access-control-allow-origin: *
+x-amz-apigw-id: RzoeEEz4PHcFtcw=
+access-control-allow-methods: GET, OPTIONS, POST, PATCH, DELETE
+X-Amzn-Trace-Id: Root=1-65aaedf3-0ce7e97356a7bfe83c2879fc;Sampled=0;lineage=abf4b437:0|6ef8ccce:0
+X-Cache: Miss from cloudfront
+Via: 1.1 fdcba9ad44214c814bcd3af570cf671a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAH50-C3
+X-Amz-Cf-Id: FQQEE4DlKv3ly98IOv3_4jcBWx4Xe1ZLciEwkJ9aWdzp7lgK34qj_g==
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=6EZZFhRu9SYStrJHW.fLYCVOQaEj7.Z1LPkNiPcHFXQ-1705700851-1-AXj8Gl7d4fUFo8MLV5d3JjUJ5GDa0vUeV3iRZ0l6euXS5iMeyJ3F4W5qnD+t//f1oR8JvHnURN7UogSMb9XBapg=; path=/; expires=Fri, 19-Jan-24 22:17:31 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 848246cfec3821b9-GDL
+Content-Encoding: gzip
+
+{
+    "messages": [
+        
+    ],
+    "data": [
+        {
+            "category_id": "de7e02fd-fb1a-4ce6-bd9c-4f3862a3117c",
+            "category_name": "Fitness",
+            "description": null,
+            "products": [
+                {
+                    "product_id": "31042a39-5a4a-416e-a3ab-4e56a6eaf567",
+                    "product_name": "Producto C"
+                }
+            ],
+            "image": null
+        },
+        {
+            "category_id": "af2f66d9-2adb-4eb8-b292-a43a0cc609db",
+            "category_name": "Home",
+            "description": null,
+            "products": [
+                {
+                    "product_id": "31042a39-5a4a-416e-a3ab-4e56a6eaf567",
+                    "product_name": "Producto C"
+                }
+            ],
+            "image": null
+        }
+    ],
+    "meta": {
+        "type": "category"
+    }
+}
+]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="InvoiceEPExecution" classname="org.selenium.pom.tests.APITestCases" time="7.879">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <500>.
+  <testcase name="LoginExec" classname="org.selenium.pom.tests.APITestCases" time="0.522">
+    <system-out><![CDATA[Headers:		authority=api-gateway.payclip.com
+				accept=application/vnd.com.payclip.v1+json
+				accept-language=es-US,es;q=0.9
+				Content-Type=application/json
+Body:
+{
+    "email": "alextopeteperea@gmail.com",
+    "password": "ATP150493i",
+    "type": "LOGIN",
+    "source": "M_DASHBOARD"
+}
+HTTP/1.1 200 OK
+Date: Fri, 19 Jan 2024 21:47:32 GMT
+Content-Type: application/vnd.com.payclip.v1+json;charset=UTF-8
+Content-Length: 293
+Connection: keep-alive
+Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With
+Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT
+Access-Control-Allow-Origin: https://lending.clip.mx, https://dashboard.clip.mx, https://minegocio.clip.mx, https://factura-tu-clip.clip.mx, https://completa-tu-pago.payclip.com, https://clip.mx, https://coupons.payclip.com, https://dashboard.developer.clip.mx, https://dashboard-mfe.clip.mx, https://mf-merchant-dashboard.clip.mx, https://completa-tu-pago3.payclip.com, https://tienda.clip.mx, https://prod-web-onboarding.payclip.com, https://mfe-react-support.payclip.com, https://mfe-mobile-payment-options.payclip.com, https://mfe-business-information.payclip.com, https://mfe-transaction-details.payclip.com, https://pago.clip.mx
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Expires: 0
+Pragma: no-cache
+Vary: Origin
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=3tiZGbtdy9QUDcFnc5f74UTm_HEry3yKqrCC6Eab0eA-1705700852-1-AWUTZ3F7xr0sD/FsE9Gyj2QlMG/7EkB8OyzZlp817IaQBpymZaOn+DM/tG9C3h0OGVgDx+HTZkjHy09zWtwzoFI=; path=/; expires=Fri, 19-Jan-24 22:17:32 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 848246d28a73219b-GDL
 
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at org.selenium.pom.apis.InvoiceInformationEndpoint.AddInvoiceInfo(InvoiceInformationEndpoint.java:42)
-	at org.selenium.pom.tests.APITestCases.InvoiceEPExecution(APITestCases.java:52)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJvMlNGNTF4OTRAaGRYeWFOIiwiaGtpIjoxLCJleHAiOjE3MDg3MjQ4NTEsImlhdCI6MTcwNTcwMDg1MX0.VYptHpLfU2MOjZ6Yl4m8QYjUZOpVlp6OjwcIaZzSED0",
+    "country": "MX",
+    "app_version_check": {
+        "status": "ALLOWED",
+        "not_allowed_from": "NA"
+    },
+    "days_until_exp": null
+}
+]]></system-out>
   </testcase>
-  <testcase name="LoginEPExecution" classname="org.selenium.pom.tests.APITestCases" time="0.686"/>
-  <testcase name="LoginExec" classname="org.selenium.pom.tests.APITestCases" time="0.532"/>
 </testsuite>

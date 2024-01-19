@@ -7,19 +7,25 @@ import io.restassured.response.Response;
 import org.selenium.pom.bodies.LoginRequestBody;
 import org.selenium.pom.headers.CustomHeaders;
 import static org.assertj.core.api.Assertions.assertThat;
+
 import java.util.Properties;
 import static io.restassured.RestAssured.given;
 import static org.selenium.pom.utils.PropertyLoader.loadProperties;
 
 public class LoginEP {
     private Properties properties;
+    private String accessToken; // se crea una variable de instancia para poder guardar el access_token
     public LoginEP() {
         properties = loadProperties("config.properties");
+    }
+    //metodo que nos ayudara a poder reutiizar el access token en cualquier otra clase
+    public String getAccessToken() {
+        return accessToken;
     }
 
     public Response login() throws JsonProcessingException {
         String baseUrl = properties.getProperty("baseURI");
-        String endpoint = properties.getProperty("loginEndpoint");
+        String endpoint = properties.getProperty("login.Endpoint");
         String email = properties.getProperty("email");
         String password = properties.getProperty("password");
 
@@ -36,7 +42,7 @@ public class LoginEP {
         String requestBody = objectMapper.writeValueAsString(requestBodyObj);
 
 
-        return
+        Response response =
                 given()
                         .baseUri(baseUrl)
                         .basePath(endpoint)
@@ -49,6 +55,11 @@ public class LoginEP {
                         .contentType(ContentType.JSON)
                         .extract()
                         .response();
+
+        // Guardar el access_token
+        accessToken = response.jsonPath().getString("access_token");
+
+        return response;
     }
 
     public void validateLoginResponse(Response response) {

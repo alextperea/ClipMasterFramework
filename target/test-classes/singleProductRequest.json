@@ -1,6 +1,6 @@
 {
-  "product_name": null,
-  "description": null,
+  "product_name": "Test product",
+  "description": "Test description for product",
   "price": null,
   "stock": null,
   "stock_alert": null,

@@ -4,8 +4,10 @@ org\selenium\pom\factory\DriverManager.class
 org\selenium\pom\apis\login\Login.class
 org\selenium\pom\apis\login\LoginEP.class
 org\selenium\pom\tests\APITestCases.class
+org\selenium\pom\apis\catalog\CreateSingleProduct.class
 org\selenium\pom\apis\catalog\GetCategories.class
 org\selenium\pom\apis\login\LoginEndpoint.class
+org\selenium\pom\apis\catalog\DeleteProduct.class
 org\selenium\pom\headers\CustomHeaders.class
 org\selenium\pom\bodies\LoginRequestBody.class
 org\selenium\pom\utils\PropertyLoader.class

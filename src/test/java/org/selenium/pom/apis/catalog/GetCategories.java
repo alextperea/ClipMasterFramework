@@ -31,13 +31,10 @@ public class GetCategories {
                         .basePath(endpoint)
                         .headers(CustomHeaders.getCategoriesHeaders(accessToken)).log().headers()
                 .when()
-                        .log().all()
                         .get()
                 .then()
-                        .log().all()
-                        .statusCode(200)
+                        .statusCode(200).log().everything()
                         .extract().response();
-
 
         return response;
     }

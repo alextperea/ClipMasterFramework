@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-19T15:47:27 CST" name="Suite1" finished-at="2024-01-19T15:47:32 CST" duration-ms="4350">
+  <suite started-at="2024-01-20T16:44:15 CST" name="Suite1" finished-at="2024-01-20T16:44:25 CST" duration-ms="9576">
     <groups>
     </groups>
-    <test started-at="2024-01-19T15:47:27 CST" name="Regression1" finished-at="2024-01-19T15:47:32 CST" duration-ms="4350">
+    <test started-at="2024-01-20T16:44:15 CST" name="Regression1" finished-at="2024-01-20T16:44:25 CST" duration-ms="9576">
       <class name="org.selenium.pom.tests.APITestCases">
-        <test-method signature="CategoriesExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@59d016c9]" started-at="2024-01-19T15:47:27 CST" name="CategoriesExec" finished-at="2024-01-19T15:47:31 CST" duration-ms="3800" status="PASS">
+        <test-method signature="CRUDForCatalog()[pri:0, instance:org.selenium.pom.tests.APITestCases@20d28811]" started-at="2024-01-20T16:44:15 CST" name="CRUDForCatalog" finished-at="2024-01-20T16:44:22 CST" duration-ms="6988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRUDForCatalog -->
+        <test-method signature="CategoriesExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@20d28811]" started-at="2024-01-20T16:44:22 CST" name="CategoriesExec" finished-at="2024-01-20T16:44:24 CST" duration-ms="1234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CategoriesExec -->
-        <test-method signature="LoginExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@59d016c9]" started-at="2024-01-19T15:47:31 CST" name="LoginExec" finished-at="2024-01-19T15:47:32 CST" duration-ms="528" status="PASS">
+        <test-method signature="LoginExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@20d28811]" started-at="2024-01-20T16:44:24 CST" name="LoginExec" finished-at="2024-01-20T16:44:24 CST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginExec -->
+        <test-method signature="SingleProductExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@20d28811]" started-at="2024-01-20T16:44:24 CST" name="SingleProductExec" finished-at="2024-01-20T16:44:25 CST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleProductExec -->
       </class> <!-- org.selenium.pom.tests.APITestCases -->
     </test> <!-- Regression1 -->
   </suite> <!-- Suite1 -->

@@ -32,4 +32,11 @@ public class CustomHeaders {
                     new Header("authorization", accessToken)
             );
     }
+    public static Headers getDeleteProduct(String accessToken){
+        return Headers.headers(
+                new Header("accept", properties.getProperty("deleteProduct.acceptHeader")),
+                new Header("accept-language", properties.getProperty("deleteProduct.acceptLanguage")),
+                new Header("authorization", accessToken)
+        );
+    }
     }

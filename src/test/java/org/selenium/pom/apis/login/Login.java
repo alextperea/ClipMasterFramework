@@ -58,6 +58,4 @@ public class Login {
 
         softAssertions.assertAll();  // Esto asegura que todas las aserciones se verifiquen incluso si una falla.
     }
-
-
 }

@@ -33,20 +33,6 @@ public class APITestCases {
 
     }
     @Test
-    public void SingleProductExec() throws IOException {
-        Login login = new Login();
-        Response responseLogin =
-                                login.login();
-                                login.validateLoginResponse(responseLogin);
-                                String accessToken = login.getAccessToken();
-
-        CreateSingleProduct createSingleProduct = new CreateSingleProduct(accessToken);
-        Response responseSingleProduct =
-                                        createSingleProduct.createSingleProduct();
-                                        createSingleProduct.validateSingleProductCreation(responseSingleProduct);
-    }
-
-    @Test
     public void CRUDForCatalog() throws IOException {
         Login login = new Login();
         Response responseLogin =

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,11 +115,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite1" title="org.selenium.pom.tests.APITestCases" class="method navigator-link" hash-for-method="LoginExec">LoginExec</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="org.selenium.pom.tests.APITestCases" class="method navigator-link" hash-for-method="SingleProductExec">SingleProductExec</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -145,6 +140,8 @@
                   <a name="CRUDForCatalog">
                   </a> <!-- CRUDForCatalog -->
                   <span class="method-name">CRUDForCatalog</span>
+                  <em>
+(Make a CRUD for Catalog single product)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -152,6 +149,8 @@
                   <a name="CategoriesExec">
                   </a> <!-- CategoriesExec -->
                   <span class="method-name">CategoriesExec</span>
+                  <em>
+(Get Catalog Categories)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -159,13 +158,8 @@
                   <a name="LoginExec">
                   </a> <!-- LoginExec -->
                   <span class="method-name">LoginExec</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SingleProductExec">
-                  </a> <!-- SingleProductExec -->
-                  <span class="method-name">SingleProductExec</span>
+                  <em>
+(Should be able to login and get access token)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,28 +219,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CRUDForCatalog')
 data.setCell(0, 2, 'org.selenium.pom.tests.APITestCases')
-data.setCell(0, 3, 6988);
+data.setCell(0, 3, 11235);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'CategoriesExec')
 data.setCell(1, 2, 'org.selenium.pom.tests.APITestCases')
-data.setCell(1, 3, 1234);
+data.setCell(1, 3, 1276);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'SingleProductExec')
+data.setCell(2, 1, 'LoginExec')
 data.setCell(2, 2, 'org.selenium.pom.tests.APITestCases')
-data.setCell(2, 3, 860);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'LoginExec')
-data.setCell(3, 2, 'org.selenium.pom.tests.APITestCases')
-data.setCell(3, 3, 440);
+data.setCell(2, 3, 491);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -279,15 +269,11 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CategoriesExec</span>
-                <span class="method-start">6990 ms</span>
+                <span class="method-start">11364 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginExec</span>
-                <span class="method-start">8225 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SingleProductExec</span>
-                <span class="method-start">8665 ms</span>
+                <span class="method-start">12644 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

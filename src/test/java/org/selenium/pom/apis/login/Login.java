@@ -1,6 +1,8 @@
 package org.selenium.pom.apis.login;
 
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
+import io.restassured.builder.ResponseBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.assertj.core.api.SoftAssertions;
@@ -32,6 +34,7 @@ public class Login {
 
         Response response =
                 given()
+                        .filter(new AllureRestAssured())
                         .baseUri(baseUri)
                         .basePath(endpoint)
                         .headers(CustomHeaders.getLoginHeaders()).log().headers()
@@ -41,6 +44,7 @@ public class Login {
                 .then()
                         .statusCode(200)
                         .contentType(ContentType.JSON).log().all()
+
                         .extract()
                         .response();
 

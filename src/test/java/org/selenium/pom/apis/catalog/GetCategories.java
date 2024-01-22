@@ -1,5 +1,6 @@
 package org.selenium.pom.apis.catalog;
 
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.assertj.core.api.Assertions;
@@ -27,6 +28,7 @@ public class GetCategories {
 
         Response response =
                 given()
+                        .filter(new AllureRestAssured()) //This adds some filters to Allure report.
                         .baseUri(baseUri)
                         .basePath(endpoint)
                         .headers(CustomHeaders.getCategoriesHeaders(accessToken)).log().headers()

@@ -1,5 +1,6 @@
 package org.selenium.pom.apis.catalog;
 
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
 import org.selenium.pom.headers.CustomHeaders;
 import java.util.Properties;
@@ -27,6 +28,7 @@ public class DeleteProduct {
 
         Response response =
                 given()
+                        .filter(new AllureRestAssured())
                         .baseUri(baseUri)
                         .basePath(endpoint + productId).log().body()
                         .headers(CustomHeaders.getDeleteProduct(accessToken)).log().headers()

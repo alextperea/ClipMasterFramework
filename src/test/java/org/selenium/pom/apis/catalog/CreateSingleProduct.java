@@ -1,5 +1,6 @@
 package org.selenium.pom.apis.catalog;
 
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -38,6 +39,7 @@ public class CreateSingleProduct {
 
         Response response =
                 given()
+                        .filter(new AllureRestAssured())
                         .baseUri(baseUri)
                         .basePath(endpoint)
                         .headers(CustomHeaders.getSingleProductHeaders(accessToken)).log().headers()

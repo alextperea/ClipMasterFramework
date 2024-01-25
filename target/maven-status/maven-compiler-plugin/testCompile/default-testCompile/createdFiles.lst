@@ -11,6 +11,7 @@ org\selenium\pom\apis\login\LoginEndpoint.class
 org\selenium\pom\apis\catalog\DeleteProduct.class
 org\selenium\pom\headers\CustomHeaders.class
 org\selenium\pom\bodies\LoginRequestBody.class
+org\selenium\pom\apis\colaborators\AddCollaborator.class
 org\selenium\pom\utils\PropertyLoader.class
 org\selenium\pom\factory\DriverManager$1.class
 org\selenium\pom\factory\DriverType.class

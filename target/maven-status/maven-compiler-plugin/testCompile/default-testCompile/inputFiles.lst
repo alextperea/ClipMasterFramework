@@ -4,6 +4,7 @@ C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\h
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\bodies\LoginRequestBody.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\catalog\DeleteProduct.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\catalog\GetCategories.java
+C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\colaborators\AddCollaborator.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\tests\APITestCases.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\factory\DriverManager.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\login\Login.java

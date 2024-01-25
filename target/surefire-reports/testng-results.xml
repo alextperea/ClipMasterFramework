@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T13:32:18 CST" name="Suite1" finished-at="2024-01-25T13:32:33 CST" duration-ms="14200">
+  <suite started-at="2024-01-25T15:53:22 CST" name="Suite1" finished-at="2024-01-25T15:53:34 CST" duration-ms="12004">
     <groups>
     </groups>
-    <test started-at="2024-01-25T13:32:18 CST" name="Regression1" finished-at="2024-01-25T13:32:33 CST" duration-ms="14200">
+    <test started-at="2024-01-25T15:53:22 CST" name="Regression1" finished-at="2024-01-25T15:53:34 CST" duration-ms="12004">
       <class name="org.selenium.pom.tests.APITestCases">
-        <test-method signature="CRUDForCatalog()[pri:0, instance:org.selenium.pom.tests.APITestCases@5173200b]" started-at="2024-01-25T13:32:19 CST" name="CRUDForCatalog" description="Make a CRUD for Catalog single product" finished-at="2024-01-25T13:32:30 CST" duration-ms="11387" status="PASS">
+        <test-method signature="CRUDForCatalog()[pri:0, instance:org.selenium.pom.tests.APITestCases@3b152928]" started-at="2024-01-25T15:53:22 CST" name="CRUDForCatalog" description="Make a CRUD for Catalog single product" finished-at="2024-01-25T15:53:31 CST" duration-ms="8832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CRUDForCatalog -->
-        <test-method signature="CategoriesExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@5173200b]" started-at="2024-01-25T13:32:30 CST" name="CategoriesExec" description="Get Catalog Categories" finished-at="2024-01-25T13:32:31 CST" duration-ms="1108" status="PASS">
+        <test-method signature="CategoriesExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@3b152928]" started-at="2024-01-25T15:53:31 CST" name="CategoriesExec" description="Get Catalog Categories" finished-at="2024-01-25T15:53:32 CST" duration-ms="989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CategoriesExec -->
-        <test-method signature="EditInvoiceInformation()[pri:0, instance:org.selenium.pom.tests.APITestCases@5173200b]" started-at="2024-01-25T13:32:31 CST" name="EditInvoiceInformation" description="Edit the Invoice Information" finished-at="2024-01-25T13:32:32 CST" duration-ms="900" status="PASS">
+        <test-method signature="EditInvoiceInformation()[pri:0, instance:org.selenium.pom.tests.APITestCases@3b152928]" started-at="2024-01-25T15:53:32 CST" name="EditInvoiceInformation" description="Edit the Invoice Information" finished-at="2024-01-25T15:53:33 CST" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditInvoiceInformation -->
-        <test-method signature="LoginExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@5173200b]" started-at="2024-01-25T13:32:32 CST" name="LoginExec" description="Should be able to login and get access token" finished-at="2024-01-25T13:32:33 CST" duration-ms="506" status="PASS">
+        <test-method signature="LoginExec()[pri:0, instance:org.selenium.pom.tests.APITestCases@3b152928]" started-at="2024-01-25T15:53:33 CST" name="LoginExec" description="Should be able to login and get access token" finished-at="2024-01-25T15:53:34 CST" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginExec -->

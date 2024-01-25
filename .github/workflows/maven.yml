@@ -10,50 +10,85 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "*" ]
+    branches:
+      - '*'
   pull_request:
-    branches: [ "master" ]
+    paths:
+      - '**/*.java'
+      - '**/*.xml'
+      - '**/*.properties'
+      - '!**/target/**'
+      - '!**/.github/**'
+      - '!**/.git/**'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: maven
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-        # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-    - name: Maven Dependency Tree Dependency Submission
-      uses: advanced-security/maven-dependency-submission-action@v4.0.0
-
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
       - name: Set up JDK 17
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v2
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
+
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
       - name: Run tests with Maven
         run: mvn -B test --file pom.xml
 
-  fail_on_test_failure:
+  merge:
+    runs-on: ubuntu-latest
+    needs: [build, test]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Merge to master
+        run: git merge --ff-only ${{ github.event.before }}
+        if: github.event_name == 'push' && success()
+
+  merge-check:
     runs-on: ubuntu-latest
     needs: test
-    if: failure() && github.ref != 'refs/heads/master'
-    steps:
-      - name: Fail workflow on test failure
-        run: exit 1
 
-  
-            
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Run tests before merging
+        run: mvn -B test --file pom.xml

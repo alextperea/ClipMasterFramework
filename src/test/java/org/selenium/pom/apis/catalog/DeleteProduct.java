@@ -31,7 +31,7 @@ public class DeleteProduct {
                         .filter(new AllureRestAssured())
                         .baseUri(baseUri)
                         .basePath(endpoint + productId).log().body()
-                        .headers(CustomHeaders.getDeleteProduct(accessToken)).log().headers()
+                        .headers(CustomHeaders.getDeleteProductHeaders(accessToken)).log().headers()
                 .when()
                         .delete()
                 .then()

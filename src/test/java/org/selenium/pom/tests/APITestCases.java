@@ -6,6 +6,7 @@ import io.restassured.response.Response;
 import org.selenium.pom.apis.catalog.CreateSingleProduct;
 import org.selenium.pom.apis.catalog.DeleteProduct;
 import org.selenium.pom.apis.catalog.GetCategories;
+import org.selenium.pom.apis.invoicing.EditInvoiceInfo;
 import org.selenium.pom.apis.login.Login;
 import org.testng.annotations.Test;
 import java.io.IOException;
@@ -52,5 +53,18 @@ public class APITestCases {
 
         DeleteProduct deleteProduct = new DeleteProduct(accessToken, productId);
                                           deleteProduct.deleteCatalogProduct();
+    }
+    @Description("This test should be able to Login and edit the Invoice information")
+    @Test(description = "Edit the Invoice Information")
+    public void EditInvoiceInformation() throws IOException {
+        Login login = new Login();
+        Response responseLogin =
+                                login.login();
+                                login.validateLoginResponse(responseLogin);
+                                String accessToken = login.getAccessToken();
+
+        EditInvoiceInfo editInvoiceInfo = new EditInvoiceInfo(accessToken);
+        editInvoiceInfo.editInvoiceInfo();
+
     }
 }

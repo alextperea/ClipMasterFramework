@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.514" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.832" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\alext\IdeaProjects\ClipMasterFramework\target\test-classes;C:\Users\alext\IdeaProjects\ClipMasterFramework\target\classes;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\alext\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\alext\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\alext\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alext\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\alext\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alext\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alext\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alext\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alext\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\alext\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\alext\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\alext\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alext\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\alext\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\alext\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\alext\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0-rc1\jackson-databind-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0-rc1\jackson-annotations-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0-rc1\jackson-core-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\alext\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\alext\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\alext\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\alext\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\alext\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\alext\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alext\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\alext\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alext\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\alext\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\alext\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\alext\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\alext\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\alext\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alext\.m2\repository\com\dorkbox\PropertyLoader\1.2\PropertyLoader-1.2.jar;C:\Users\alext\.m2\repository\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\alext\IdeaProjects\ClipMasterFramework\target\test-classes;C:\Users\alext\IdeaProjects\ClipMasterFramework\target\classes;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\alext\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\alext\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\alext\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alext\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\alext\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alext\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alext\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alext\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alext\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\alext\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\alext\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\alext\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alext\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\alext\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\alext\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\alext\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0-rc1\jackson-databind-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0-rc1\jackson-annotations-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0-rc1\jackson-core-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\alext\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\alext\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\alext\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\alext\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\alext\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\alext\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alext\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\alext\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alext\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\alext\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\alext\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\alext\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\alext\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\alext\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alext\.m2\repository\com\dorkbox\PropertyLoader\1.2\PropertyLoader-1.2.jar;C:\Users\alext\.m2\repository\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\alext\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\alext\AppData\Local\Temp\surefire2400250517425451538\surefirebooter9144247008939623199.jar C:\Users\alext\AppData\Local\Temp\surefire2400250517425451538 2024-01-20T22-52-35_307-jvmRun1 surefire6816514623979609415tmp surefire_016785809750302606597tmp"/>
+    <property name="sun.java.command" value="C:\Users\alext\AppData\Local\Temp\surefire4708670677761743620\surefirebooter12120104901129663572.jar C:\Users\alext\AppData\Local\Temp\surefire4708670677761743620 2024-01-25T13-32-13_524-jvmRun1 surefire1387283766835682381tmp surefire_09785061360869555234tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\alext\IdeaProjects\ClipMasterFramework\target\test-classes;C:\Users\alext\IdeaProjects\ClipMasterFramework\target\classes;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\alext\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\alext\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\alext\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alext\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\alext\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alext\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alext\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alext\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alext\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\alext\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\alext\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\alext\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alext\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\alext\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\alext\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\alext\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0-rc1\jackson-databind-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0-rc1\jackson-annotations-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0-rc1\jackson-core-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\alext\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\alext\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\alext\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\alext\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\alext\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\alext\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alext\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\alext\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alext\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\alext\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\alext\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\alext\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\alext\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\alext\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alext\.m2\repository\com\dorkbox\PropertyLoader\1.2\PropertyLoader-1.2.jar;C:\Users\alext\.m2\repository\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\alext\IdeaProjects\ClipMasterFramework\target\test-classes;C:\Users\alext\IdeaProjects\ClipMasterFramework\target\classes;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\alext\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\alext\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\alext\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\alext\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\alext\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\alext\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\alext\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\alext\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alext\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\alext\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\alext\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alext\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alext\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alext\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alext\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alext\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\alext\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\alext\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\alext\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\alext\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alext\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\alext\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\alext\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\alext\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\alext\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0-rc1\jackson-databind-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0-rc1\jackson-annotations-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0-rc1\jackson-core-2.16.0-rc1.jar;C:\Users\alext\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\alext\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\alext\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\alext\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\alext\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\alext\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\alext\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\alext\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\alext\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\alext\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alext\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\alext\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\alext\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alext\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\alext\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\alext\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\alext\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\alext\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\alext\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\alext\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\alext\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\alext\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alext\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alext\.m2\repository\com\dorkbox\PropertyLoader\1.2\PropertyLoader-1.2.jar;C:\Users\alext\.m2\repository\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\alext\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\alext\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\alext"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alext\AppData\Local\Temp\surefire2400250517425451538\surefirebooter9144247008939623199.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alext\AppData\Local\Temp\surefire4708670677761743620\surefirebooter12120104901129663572.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -49,14 +49,14 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\alext\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk-17\bin;%MAVEN_HOME%\bin;C:\Users\alext\Downloads\openssl-1.0.2j-fips-x86_64\OpenSSL\bin;C:\Program Files\nodejs;C:\Users\alext\OneDrive\Documentos\Maven\apache-maven-3.9.5\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7;C:\Program Files\PowerShell\7-preview\preview;C:\Users\alext\scoop\shims;C:\Users\alext\AppData\Local\Microsoft\WindowsApps;C:\Users\alext\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alext\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\alext\AppData\Roaming\npm;C:\Users\alext\AppData\Local\gitkraken\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\alext\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk-17\bin;%MAVEN_HOME%\bin;C:\Users\alext\Downloads\openssl-1.0.2j-fips-x86_64\OpenSSL\bin;C:\Program Files\nodejs;C:\Users\alext\OneDrive\Documentos\Maven\apache-maven-3.9.5\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7;C:\Program Files\PowerShell\7-preview\preview;C:\Users\alext\scoop\shims;C:\Users\alext\AppData\Local\Microsoft\WindowsApps;C:\Users\alext\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alext\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\alext\AppData\Roaming\npm;C:\Users\alext\AppData\Local\gitkraken\bin;C:\Users\alext\AppData\Local\Programs\oh-my-posh\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="CRUDForCatalog" classname="org.selenium.pom.tests.APITestCases" time="11.243">
+  <testcase name="CRUDForCatalog" classname="org.selenium.pom.tests.APITestCases" time="11.39">
     <system-out><![CDATA[Headers:		authority=api-gateway.payclip.com
 				accept=application/vnd.com.payclip.v1+json
 				accept-language=es-US,es;q=0.9
@@ -69,7 +69,7 @@ Body:
     "source": "M_DASHBOARD"
 }
 HTTP/1.1 200 OK
-Date: Sun, 21 Jan 2024 04:52:45 GMT
+Date: Thu, 25 Jan 2024 19:32:24 GMT
 Content-Type: application/vnd.com.payclip.v1+json;charset=UTF-8
 Content-Length: 293
 Connection: keep-alive
@@ -85,12 +85,12 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 CF-Cache-Status: DYNAMIC
-Set-Cookie: __cf_bm=wRkFLrjgMsLTg5iPIKMy7_5b9OAfL0rrSZKsgUKKak4-1705812765-1-AdqQV7Oi4m+UfmNAjFjwl3aU8Kam5zL3V552ws52Qg4ZRw/40PgxtHoQdNzdnW9CLLvSMDWfxvCWNEg/VLwQ8/k=; path=/; expires=Sun, 21-Jan-24 05:22:45 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=BwCD0agD8doMNOwAqkmozA_fk1mkt2PiId.1gPwWpOs-1706211144-1-ATpVk1Px3LbOl03Wnl+jyfwPqW2Aop5HYSns+7O8TtWik03YJ4ds8nYbn4gcE9QcJKLSUu/Yr7dp7OFOZxwvYPs=; path=/; expires=Thu, 25-Jan-24 20:02:24 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 848cf3157f09219b-GDL
+CF-RAY: 84b2f1259f2521b8-GDL
 
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJaUWJFUk1hPk9NN1YtVjlVIiwiaGtpIjoxLCJleHAiOjE3MDg4MzY3NjUsImlhdCI6MTcwNTgxMjc2NX0.mdfEOar0FnHEEtLpzUC13MOI5Hsek-I1L3YmJYPMR9M",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiIse3ExMk00ZTN-b0A2X3VCIiwiaGtpIjoxLCJleHAiOjE3MDkyMzUxNDQsImlhdCI6MTcwNjIxMTE0NH0.wIUo4AzUvpJttfypT0ZYbHLy63lb3MIs5eCqL3D2j7A",
     "country": "MX",
     "app_version_check": {
         "status": "ALLOWED",
@@ -100,13 +100,13 @@ CF-RAY: 848cf3157f09219b-GDL
 }
 Headers:		accept=application/vnd.com.payclip.v1+json
 				accept-language=es-US,es;q=0.9
-				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJaUWJFUk1hPk9NN1YtVjlVIiwiaGtpIjoxLCJleHAiOjE3MDg4MzY3NjUsImlhdCI6MTcwNTgxMjc2NX0.mdfEOar0FnHEEtLpzUC13MOI5Hsek-I1L3YmJYPMR9M
+				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiIse3ExMk00ZTN-b0A2X3VCIiwiaGtpIjoxLCJleHAiOjE3MDkyMzUxNDQsImlhdCI6MTcwNjIxMTE0NH0.wIUo4AzUvpJttfypT0ZYbHLy63lb3MIs5eCqL3D2j7A
 				Content-Type=application/json
 Body:
 {
     "product_name": "Test product",
     "description": "Test description for product",
-    "price": 40,
+    "price": 78,
     "stock": null,
     "stock_alert": null,
     "modifiers": [
@@ -117,23 +117,23 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Sun, 21 Jan 2024 04:52:50 GMT
+Date: Thu, 25 Jan 2024 19:32:29 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-x-amzn-RequestId: 1be984c4-5166-4c0d-8ef8-6a60df4e92f0
+x-amzn-RequestId: 5ba8e7d4-fb11-4e2d-8435-f94aa6cc5c39
 access-control-allow-origin: *
-x-amz-apigw-id: R35tZFkMPHcF-mA=
+x-amz-apigw-id: SHGUJGqBvHcF_qA=
 access-control-allow-methods: GET, OPTIONS, POST, PATCH, DELETE
-X-Amzn-Trace-Id: Root=1-65aca322-44065271750ca04c5ddfb48e;Sampled=0;lineage=abf4b437:0|6ef8ccce:0
+X-Amzn-Trace-Id: Root=1-65b2b74d-31d9d1e522c09e5471aa2ee7;Sampled=0;lineage=abf4b437:0|6ef8ccce:0
 X-Cache: Miss from cloudfront
-Via: 1.1 358c6b4652ba761f933c81ae3644fa6a.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: LAX50-P4
-X-Amz-Cf-Id: j0sw5Bf51umrt7kBtKxNupT1yqVxJLPRYmIxtgOMqbvji7G6OGsttw==
+Via: 1.1 a5c7e4d4a78e8979df75640774711a60.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DFW56-P5
+X-Amz-Cf-Id: 4XOyylIUOgRJ7ies3EaUMKzSithNZnieyrmz36FLhCeLY3sjAq4PnA==
 CF-Cache-Status: DYNAMIC
-Set-Cookie: __cf_bm=24FBQYQ2x_x6kZCKW_Rjqt6Tc8F3qYAw8QFDea9pJwI-1705812770-1-AXSgHVBEEhlQS/DenJc0xLAJoFPDdYng00qhImykCPlHL4HYu+t8TxWQY5mPZcQ4R9v89HWbnl9gVunJWLCnmWY=; path=/; expires=Sun, 21-Jan-24 05:22:50 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=BGyFRVa4eq_uHizUI2uyPOQbYcHa4nNooV_Bx9V5pvU-1706211149-1-AUY2VK1H0jlaRHTma3ltVYotB0Pmcr+8VmkEkfc+Onz+C+y6Sqmd9dnnDaFII2o9iD5YxNPf9gAyUUrnrt6d4gA=; path=/; expires=Thu, 25-Jan-24 20:02:29 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 848cf335b91c21ad-GDL
+CF-RAY: 84b2f143cc4d21a4-GDL
 Content-Encoding: gzip
 
 {
@@ -144,7 +144,7 @@ Content-Encoding: gzip
         
     ],
     "data": {
-        "product_id": "50cc1988-2e87-4ce1-bd42-c5aaebcdf63e",
+        "product_id": "558fb631-d515-4a35-be43-98b8df4b044a",
         "product_name": "Test product",
         "description": "Test description for product",
         "image": null,
@@ -158,7 +158,7 @@ Content-Encoding: gzip
         "number_of_variants": 0,
         "stock": null,
         "sku": null,
-        "price": 40.0,
+        "price": 78.0,
         "attributes": [
             
         ],
@@ -170,31 +170,31 @@ Content-Encoding: gzip
 Body:			<none>
 Headers:		accept=application/vnd.com.payclip.v1+json
 				accept-language=es-US,es;q=0.9
-				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJaUWJFUk1hPk9NN1YtVjlVIiwiaGtpIjoxLCJleHAiOjE3MDg4MzY3NjUsImlhdCI6MTcwNTgxMjc2NX0.mdfEOar0FnHEEtLpzUC13MOI5Hsek-I1L3YmJYPMR9M
+				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiIse3ExMk00ZTN-b0A2X3VCIiwiaGtpIjoxLCJleHAiOjE3MDkyMzUxNDQsImlhdCI6MTcwNjIxMTE0NH0.wIUo4AzUvpJttfypT0ZYbHLy63lb3MIs5eCqL3D2j7A
 HTTP/1.1 204 No Content
-Date: Sun, 21 Jan 2024 04:52:51 GMT
+Date: Thu, 25 Jan 2024 19:32:30 GMT
 Content-Type: application/json
 Connection: keep-alive
-x-amzn-RequestId: e4de0777-aeb9-4d09-890f-27df8ebdfd51
+x-amzn-RequestId: b59d5986-d518-4087-8688-8056839d7a2d
 access-control-allow-origin: *
-x-amz-apigw-id: R35thHEVvHcFx8Q=
+x-amz-apigw-id: SHGURHA1vHcFU9g=
 access-control-allow-methods: GET, OPTIONS, POST, PATCH, DELETE
-X-Amzn-Trace-Id: Root=1-65aca323-20ca68be0d34dfab21f16243;Sampled=1;lineage=6ef8ccce:0
+X-Amzn-Trace-Id: Root=1-65b2b74e-473f44071ed3f78132b92d4a;Sampled=1;lineage=6ef8ccce:0
 X-Cache: Miss from cloudfront
-Via: 1.1 f3219597d17b6efcbda39f405ca2692a.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: LAX50-P4
-X-Amz-Cf-Id: PNTR5ypZXSs9pC9gLj_CYZBWd-Rigi0_unzfCRTMcs_NvpTp-WBGXw==
+Via: 1.1 bf7702d3cf05b203b6034c7c1d6f783c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DFW56-P5
+X-Amz-Cf-Id: 688eliacV7HVorifHVV504wHqcguRCjUgUUmPpukin8bvenYVXeosA==
 CF-Cache-Status: DYNAMIC
-Set-Cookie: __cf_bm=IBvXRvsEwsgnqgEWKd8mBv0Cm9_ekqexbd84pxXpnI0-1705812771-1-AbXgRWqzVCXrKJs8wxNpAxYPRnlTRJbYmZrG/ke7tirU9tCTq/J33Kw9kzZcepc6NCWqzE5SxLMH2KBeVWFWDFU=; path=/; expires=Sun, 21-Jan-24 05:22:51 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=yEuklkN8x2SClLw6N0C44EeEp.U29crI1usi5WHj0xI-1706211150-1-AUzC2rVlzmT89kKjDS48bftroJE06qKx4p92tTuIGJK63lyPfb4rFmv0cqQbcmzTN6o9f5cJ/+13lcgzx4N4LAE=; path=/; expires=Thu, 25-Jan-24 20:02:30 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 848cf33a9e74219c-GDL
+CF-RAY: 84b2f148ccbc21a7-GDL
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="CategoriesExec" classname="org.selenium.pom.tests.APITestCases" time="1.279">
+  <testcase name="CategoriesExec" classname="org.selenium.pom.tests.APITestCases" time="1.114">
     <system-out><![CDATA[Headers:		authority=api-gateway.payclip.com
 				accept=application/vnd.com.payclip.v1+json
 				accept-language=es-US,es;q=0.9
@@ -207,7 +207,7 @@ Body:
     "source": "M_DASHBOARD"
 }
 HTTP/1.1 200 OK
-Date: Sun, 21 Jan 2024 04:52:52 GMT
+Date: Thu, 25 Jan 2024 19:32:31 GMT
 Content-Type: application/vnd.com.payclip.v1+json;charset=UTF-8
 Content-Length: 293
 Connection: keep-alive
@@ -223,12 +223,12 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 CF-Cache-Status: DYNAMIC
-Set-Cookie: __cf_bm=aokhouMg2nxjzCuDVCWJJMg8FkuK7hawLN17dPjm5yk-1705812772-1-AVoPUqOKGyaQzCOIwReZU+TqJiTU0/I+hyDRCmZlvYyaDCrNOjV/B1/2hq62XEV3xXCxNbirrr4uISDHlaTI7Fc=; path=/; expires=Sun, 21-Jan-24 05:22:52 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=Nzj5NyDRuUllXdmxh7BcYxcVkY2RF8qIMhHdXaVWEiI-1706211151-1-AcSEcNCME2IDn9Bl7WJxqXDVPFeaOZHv8coEwuEv6pShmJQnPSm9ySJFWi/668b/zIoXTv6gX0Tn3VgE57kTqws=; path=/; expires=Thu, 25-Jan-24 20:02:31 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 848cf33dabe221b3-GDL
+CF-RAY: 84b2f14bfc3f21a4-GDL
 
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJPN35yLGIvfDNMJHdhN15FIiwiaGtpIjoxLCJleHAiOjE3MDg4MzY3NzIsImlhdCI6MTcwNTgxMjc3Mn0.aZsgj1Vm098IcDzGMai3bTXWWtS0gLhYVak63TFMXPI",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJneng-SWV0TDRRYT5Aey08IiwiaGtpIjoxLCJleHAiOjE3MDkyMzUxNTEsImlhdCI6MTcwNjIxMTE1MX0.YQMTEO8u39e7r4DsmAKPlWeD19AbilKZQM6iGxrYvt8",
     "country": "MX",
     "app_version_check": {
         "status": "ALLOWED",
@@ -238,25 +238,25 @@ CF-RAY: 848cf33dabe221b3-GDL
 }
 Headers:		accept=application/vnd.com.payclip.v1+json
 				accept-language=es-US,es;q=0.9
-				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJPN35yLGIvfDNMJHdhN15FIiwiaGtpIjoxLCJleHAiOjE3MDg4MzY3NzIsImlhdCI6MTcwNTgxMjc3Mn0.aZsgj1Vm098IcDzGMai3bTXWWtS0gLhYVak63TFMXPI
+				authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJneng-SWV0TDRRYT5Aey08IiwiaGtpIjoxLCJleHAiOjE3MDkyMzUxNTEsImlhdCI6MTcwNjIxMTE1MX0.YQMTEO8u39e7r4DsmAKPlWeD19AbilKZQM6iGxrYvt8
 HTTP/1.1 200 OK
-Date: Sun, 21 Jan 2024 04:52:52 GMT
+Date: Thu, 25 Jan 2024 19:32:31 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-x-amzn-RequestId: ff3ce5dc-e147-4a20-8229-e88d87b08098
+x-amzn-RequestId: eb235159-99b2-4f2a-9456-61169c9a6c8f
 access-control-allow-origin: *
-x-amz-apigw-id: R35tvHkNvHcFeyQ=
+x-amz-apigw-id: SHGUcFvEPHcFd7w=
 access-control-allow-methods: GET, OPTIONS, POST, PATCH, DELETE
-X-Amzn-Trace-Id: Root=1-65aca324-049ba9bc0403b3d674185860;Sampled=0;lineage=abf4b437:0|6ef8ccce:0
+X-Amzn-Trace-Id: Root=1-65b2b74f-3c152ef105959b92793442ca;Sampled=0;lineage=abf4b437:0|6ef8ccce:0
 X-Cache: Miss from cloudfront
-Via: 1.1 76eabe4899db1a25e6e3d1a73161d5e4.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: QRO51-P2
-X-Amz-Cf-Id: OAzhOjGIjrEQyJaMbjw9YPGWjdls1M04J8L6yWcrO5ux5LnxPrH0Xg==
+Via: 1.1 bf7702d3cf05b203b6034c7c1d6f783c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DFW56-P5
+X-Amz-Cf-Id: TOw7zqsx5ii3RUPQp_e8vbjiDGosGduKYe1x1xG_cNuONSCL--uRig==
 CF-Cache-Status: DYNAMIC
-Set-Cookie: __cf_bm=iwK_9JLQRjA9g9XhWrMEMaZUWOwp3D15a8kVrWwmigQ-1705812772-1-ARaCZ9202sK25W0MzCOZV7skFYTmX8rX0hjgNbfZnHI+szNMZafyonxhwvVAX/UQsHI8FU9S8I1pOYAuI19XhCQ=; path=/; expires=Sun, 21-Jan-24 05:22:52 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=S9VYtv8Vo7aO6hBuBYtEafxnNSSZFOi65w6FykJRFhg-1706211151-1-ATQYViScF4LkGieTW6EulOK/1RexoWogGP+Ufu1pwA4TjvFSces4fLLWb+itfdt+wM8oURnvUsqHf/1duvQTRDY=; path=/; expires=Thu, 25-Jan-24 20:02:31 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 848cf3428bad219b-GDL
+CF-RAY: 84b2f14fbc9f21ae-GDL
 Content-Encoding: gzip
 
 {
@@ -289,7 +289,7 @@ Content-Encoding: gzip
 }
 ]]></system-out>
   </testcase>
-  <testcase name="LoginExec" classname="org.selenium.pom.tests.APITestCases" time="0.493">
+  <testcase name="EditInvoiceInformation" classname="org.selenium.pom.tests.APITestCases" time="0.905">
     <system-out><![CDATA[Headers:		authority=api-gateway.payclip.com
 				accept=application/vnd.com.payclip.v1+json
 				accept-language=es-US,es;q=0.9
@@ -302,7 +302,7 @@ Body:
     "source": "M_DASHBOARD"
 }
 HTTP/1.1 200 OK
-Date: Sun, 21 Jan 2024 04:52:53 GMT
+Date: Thu, 25 Jan 2024 19:32:32 GMT
 Content-Type: application/vnd.com.payclip.v1+json;charset=UTF-8
 Content-Length: 293
 Connection: keep-alive
@@ -318,12 +318,101 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 CF-Cache-Status: DYNAMIC
-Set-Cookie: __cf_bm=05PJL_mDzgv7Ka2YC.ZjVtk83usA8PLyWuXpxbsGDGs-1705812773-1-AfpB6QCJnCV0Z/VpN6Dq5D7o5zIRszzKNju+WOPiPx+ViX3skzaudPF9K8+VKsRMYum6lgLM1aNMkesyn3y/KDw=; path=/; expires=Sun, 21-Jan-24 05:22:53 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=DhN5N73EruEoYFUsNKAX4QQakSiN62SXKjo25ZBW6tk-1706211152-1-AVwIoOuXJlsFDkkO6wJpt+DvtMbwvsSN/bWLAZQJn/i4571P40flgsDkOi0Lbf6BHV/7xPv9KxWTYmNGC9h/N3Y=; path=/; expires=Thu, 25-Jan-24 20:02:32 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 848cf345aa0d21a1-GDL
+CF-RAY: 84b2f152bc0321b6-GDL
 
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJ6WVZpPEJMWyRWSV4yXTFoIiwiaGtpIjoxLCJleHAiOjE3MDg4MzY3NzIsImlhdCI6MTcwNTgxMjc3Mn0.w5j4vCNMqBrSnlTbYHOCpD-Kg9KdeOs7K8G_HaFrlqE",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiJAREJlenBLbXtLOSxAODE2IiwiaGtpIjoxLCJleHAiOjE3MDkyMzUxNTIsImlhdCI6MTcwNjIxMTE1Mn0.erbgMA10qQsbkl1SvcTnpWRcGjo2TGPPV_LMVtXYNDM",
+    "country": "MX",
+    "app_version_check": {
+        "status": "ALLOWED",
+        "not_allowed_from": "NA"
+    },
+    "days_until_exp": null
+}
+Body:
+{
+    "invoicing": {
+        "tax_payer_id": "TOPA930415C93",
+        "legal_entity_name": "ALEJANDRO TOPETE PEREA",
+        "legal_entity_last_name": "",
+        "legal_entity_second_last_name": "",
+        "entity_type": "PHYSICAL",
+        "fiscal_address_postal_code": "44210",
+        "sat_tax_regime_code": "626",
+        "sat_invoice_use_code": "G03"
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 25 Jan 2024 19:32:32 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-amzn-RequestId: ff1ff51c-8ceb-4489-acac-e603882bda14
+access-control-allow-origin: *
+x-amz-apigw-id: SHGUmEUMPHcFRgQ=
+access-control-allow-methods: GET, OPTIONS, POST, PATCH
+X-Amzn-Trace-Id: Root=1-65b2b750-5fb84a1302bb10fe0569d8d0;Sampled=0;lineage=abf4b437:0|2282a96f:0
+X-Cache: Miss from cloudfront
+Via: 1.1 1e55614427beb2c9a53afc5f91022b80.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DFW56-P5
+X-Amz-Cf-Id: FPuOE6wybfXXbxlyBifUdIPvWSzDrpLhas0R4YeaJUbtaMS0BW2TyA==
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=dVvkvHdMr_Juwkrh5r5EExeXDQplPHJOp_DupdAsAzA-1706211152-1-Aa4Dr9+pmlGrWl8KHw9o53SrQICqxU8MUx75pEi+DElqmAhx2BFYZ5+nWODUacPYghkGz5z3hq85rLvGxi+Eq1Q=; path=/; expires=Thu, 25-Jan-24 20:02:32 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 84b2f156093a21b3-GDL
+Content-Encoding: gzip
+
+{
+    "tax_payer_id": "TOPA930415C93",
+    "legal_entity_name": "ALEJANDRO TOPETE PEREA",
+    "legal_entity_last_name": "",
+    "legal_entity_second_last_name": "",
+    "fiscal_address_postal_code": "44210",
+    "sat_tax_regime_code": "626",
+    "sat_tax_regime_description": "Régimen Simplificado de Confianza",
+    "sat_invoice_use_code": "G03",
+    "sat_invoice_use_description": "Gastos en general",
+    "entity_type": "PHYSICAL"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="LoginExec" classname="org.selenium.pom.tests.APITestCases" time="0.507">
+    <system-out><![CDATA[Headers:		authority=api-gateway.payclip.com
+				accept=application/vnd.com.payclip.v1+json
+				accept-language=es-US,es;q=0.9
+				Content-Type=application/json
+Body:
+{
+    "email": "alextopeteperea@gmail.com",
+    "password": "ATP150493i",
+    "type": "LOGIN",
+    "source": "M_DASHBOARD"
+}
+HTTP/1.1 200 OK
+Date: Thu, 25 Jan 2024 19:32:33 GMT
+Content-Type: application/vnd.com.payclip.v1+json;charset=UTF-8
+Content-Length: 293
+Connection: keep-alive
+Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With
+Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT
+Access-Control-Allow-Origin: https://lending.clip.mx, https://dashboard.clip.mx, https://minegocio.clip.mx, https://factura-tu-clip.clip.mx, https://completa-tu-pago.payclip.com, https://clip.mx, https://coupons.payclip.com, https://dashboard.developer.clip.mx, https://dashboard-mfe.clip.mx, https://mf-merchant-dashboard.clip.mx, https://completa-tu-pago3.payclip.com, https://tienda.clip.mx, https://prod-web-onboarding.payclip.com, https://mfe-react-support.payclip.com, https://mfe-mobile-payment-options.payclip.com, https://mfe-business-information.payclip.com, https://mfe-transaction-details.payclip.com, https://pago.clip.mx
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Expires: 0
+Pragma: no-cache
+Vary: Origin
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=FpHOQFyIvw4V29VsxgAKhAKuqtWMINCAU9BKlED_dQI-1706211153-1-AaOZQEZVRPUUlyGG47f/ihcg2ht5PhhZWq4tSqbs4txs8Y4pRYJy3NKTGpzCNWWgWXnnm4mXnAWeIBclYpkbr4k=; path=/; expires=Thu, 25-Jan-24 20:02:33 GMT; domain=.payclip.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 84b2f1586ecd21b0-GDL
+
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiIwP3Vmdn5rLH4meXgoU0deIiwiaGtpIjoxLCJleHAiOjE3MDkyMzUxNTIsImlhdCI6MTcwNjIxMTE1Mn0.BcjxArqykGS8LwyaM2Ifb1ld-KL6sJPX6YpfntLiY5w",
     "country": "MX",
     "app_version_check": {
         "status": "ALLOWED",

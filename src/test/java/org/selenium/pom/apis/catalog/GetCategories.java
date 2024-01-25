@@ -54,9 +54,9 @@ public class GetCategories {
 
             // Valida que las categorías tengan los nombres esperados
             if (category.get("category_name").equals("Fitness")) {
-                Assertions.assertThat(category.get("category_name")).isEqualTo("Finess"); //vamos a pushear este cambio para ver el error en el pipeline de Github Actions
+                Assertions.assertThat(category.get("category_name")).isEqualTo("Fitness"); //vamos a pushear este cambio para ver el error en el pipeline de Github Actions
             } else if (category.get("category_name").equals("Home")) {
-                Assertions.assertThat(category.get("category_name")).isEqualTo("Hme");
+                Assertions.assertThat(category.get("category_name")).isEqualTo("Home");
             } else {
                 throw new AssertionError("La categoría no tiene el nombre esperado");
             }

@@ -57,7 +57,7 @@ public class Login {
         SoftAssertions softAssertions = new SoftAssertions(); //los softAssertions
 
         softAssertions.assertThat(response.jsonPath().getString("access_token")).isNotEmpty();
-        softAssertions.assertThat(response.jsonPath().getString("country")).isEqualTo("M");
+        softAssertions.assertThat(response.jsonPath().getString("country")).isEqualTo("Mx");
         softAssertions.assertThat(response.jsonPath().getString("app_version_check.status")).isEqualTo("ALLOWED");
 
         softAssertions.assertAll();  // Esto asegura que todas las aserciones se verifiquen incluso si una falla.

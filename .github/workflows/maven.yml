@@ -70,10 +70,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
-
-      - name: Merge to master
-        run: git merge --ff-only ${{ github.event.before }}
-        if: github.event_name == 'push' && success()
+          
 
   merge-check:
     runs-on: ubuntu-latest

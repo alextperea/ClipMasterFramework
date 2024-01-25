@@ -1,0 +1,46 @@
+<div>POST to https://api-gw.payclip.com/catalog/products</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;product_name&quot;: &quot;Test product&quot;,
+    &quot;description&quot;: &quot;Test description for product&quot;,
+    &quot;price&quot;: 23,
+    &quot;stock&quot;: null,
+    &quot;stock_alert&quot;: null,
+    &quot;modifiers&quot;: [
+        
+    ],
+    &quot;images&quot;: [
+        
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiI8M284TWNqXXdAekduNE8wIiwiaGtpIjoxLCJleHAiOjE3MDkyMjc2NDQsImlhdCI6MTcwNjIwMzY0NH0.2ZnZapVBsU8nqn54A-KabZXHwz8P9D6Sy7gOhWpIPEM</div>
+        <div>accept-language: es-US,es;q=0.9</div>
+        <div>accept: application/vnd.com.payclip.v1+json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://api-gw.payclip.com/catalog/products&#39; -H &#39;authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZG4iOiI8M284TWNqXXdAekduNE8wIiwiaGtpIjoxLCJleHAiOjE3MDkyMjc2NDQsImlhdCI6MTcwNjIwMzY0NH0.2ZnZapVBsU8nqn54A-KabZXHwz8P9D6Sy7gOhWpIPEM&#39; -H &#39;accept-language: es-US,es;q=0.9&#39; -H &#39;accept: application/vnd.com.payclip.v1+json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;product_name&quot;: &quot;Test product&quot;,
+    &quot;description&quot;: &quot;Test description for product&quot;,
+    &quot;price&quot;: 23,
+    &quot;stock&quot;: null,
+    &quot;stock_alert&quot;: null,
+    &quot;modifiers&quot;: [
+        
+    ],
+    &quot;images&quot;: [
+        
+    ]
+}&#39;
+</div>

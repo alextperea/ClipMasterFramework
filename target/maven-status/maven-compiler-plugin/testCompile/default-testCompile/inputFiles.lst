@@ -7,6 +7,7 @@ C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\a
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\tests\APITestCases.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\factory\DriverManager.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\login\Login.java
+C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\invoicing\EditInvoiceInfo.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\login\LoginEP.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\catalog\CreateSingleProduct.java
 C:\Users\alext\IdeaProjects\ClipMasterFramework\src\test\java\org\selenium\pom\apis\login\LoginEndpoint.java

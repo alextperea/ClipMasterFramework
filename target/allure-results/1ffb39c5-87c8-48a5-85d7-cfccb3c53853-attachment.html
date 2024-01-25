@@ -1,0 +1,32 @@
+<div>POST to https://api-gateway.payclip.com/api/login</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;email&quot;: &quot;alextopeteperea@gmail.com&quot;,
+    &quot;password&quot;: &quot;ATP150493i&quot;,
+    &quot;type&quot;: &quot;LOGIN&quot;,
+    &quot;source&quot;: &quot;M_DASHBOARD&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>accept-language: es-US,es;q=0.9</div>
+        <div>authority: api-gateway.payclip.com</div>
+        <div>accept: application/vnd.com.payclip.v1+json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://api-gateway.payclip.com/api/login&#39; -H &#39;accept-language: es-US,es;q=0.9&#39; -H &#39;authority: api-gateway.payclip.com&#39; -H &#39;accept: application/vnd.com.payclip.v1+json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;email&quot;: &quot;alextopeteperea@gmail.com&quot;,
+    &quot;password&quot;: &quot;ATP150493i&quot;,
+    &quot;type&quot;: &quot;LOGIN&quot;,
+    &quot;source&quot;: &quot;M_DASHBOARD&quot;
+}&#39;
+</div>
